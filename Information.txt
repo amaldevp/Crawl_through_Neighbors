@@ -1,0 +1,28 @@
+#Amal Dev Parakkat (adp.upasana@gmail.com)
+
+##################
+Implementation of:
+##################
+
+Paper Title:- Crawl through Neighbors: A Simple Curve Reconstruction Algorithm
+Authors:- Amal Dev Parakkat, Ramanathan Muthuganapathy
+
+Operating system recommended:- Ubuntu 14.04 or newer
+
+###########
+How to run:
+###########
+
+1. Execute the command "sh script.sh"
+   Which will:
+       a. Download required softwares including cmake, CGAL, boost, glut etc.
+       b. Add a flag variable to "CGAL\Point_3.h"
+       c. Run cmake and make commands
+2. Execute the program with filename as parameter
+   For example: "./Crawl Input_Files/Fig1.txt"
+
+################
+Additional files:
+################
+
+Input_Files contains the point sets used to generate outputs shown in the paper.
